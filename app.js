@@ -4,7 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const dotenv = require("dotenv");
 
-const sendGrid = require("@sendGrid/mail");
+const sendGrid = require("@sendgrid/mail");
 
 const app = express();
 
