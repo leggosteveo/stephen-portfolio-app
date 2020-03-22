@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import {Container, NavBar, Nav} from "react-bootstrap";
+import {Container, Navbar, Nav} from "react-bootstrap";
 import "./App.css";
 
 import Footer from "./components/Footer";
@@ -35,11 +35,11 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <NavBar className="border-bottom" bg="transparent" expand="lg">
-            <NavBar.Brand>Stephen Tyler</NavBar.Brand>
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar.Brand>Stephen Tyler</Navbar.Brand>
 
-            <NavBar.Toggle aria-controls="navbar-toggle" />
-            <NavBar.Collapse id="navbar-toggle">
+            <Navbar.Toggle aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">
                   Home
@@ -51,8 +51,8 @@ class App extends React.Component {
                   Contact
                 </Link>
               </Nav>
-            </NavBar.Collapse>
-          </NavBar>
+            </Navbar.Collapse>
+          </Navbar>
 
           <Route
             path="/"
