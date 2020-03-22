@@ -5,8 +5,7 @@ import Card from "../components/Card";
 import devgrub from "../assets/images/devgrub.png";
 import youtube from "../assets/images/youtube.png";
 import everest from "../assets/images/everest.png";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import {Container, Row} from "react-bootstrap";
 
 class Carousel extends React.Component {
   constructor(props) {
