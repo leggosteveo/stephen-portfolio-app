@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import {Container, Navbar, Nav} from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import "./App.css";
 
 import Footer from "./components/Footer";
@@ -19,9 +19,10 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" }
       ],
       home: {
-        title: "Be Relentless",
-        subTitle: "Projects that make a difference",
-        text: "Checkout my projects below"
+        title: "Create Opporunities",
+        subTitle: "About",
+        text:
+          "Outlier investments assist in the execution of high return opportunities, providing capital to well tested events and yielding desirable returns to our members."
       },
       about: {
         title: "About Me"
@@ -35,12 +36,17 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Stephen Tyler</Navbar.Brand>
+          <Navbar
+            className="border-bottom bg-primary navbar-dark"
+            expand="lg"
+          >
+            <Navbar.Brand className="font-weight-bolder text-white">
+              Outlier Investment Group
+            </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
+              <Nav className="ml-auto text-white">
                 <Link className="nav-link" to="/">
                   Home
                 </Link>

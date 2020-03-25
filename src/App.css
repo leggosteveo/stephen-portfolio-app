@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.carousel-caption {
+  top: 20px;
+}
+
+.carousel-item {
+  background-color: black;
+  min-height: 400px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+#root {
+  background-color: black;
+}
