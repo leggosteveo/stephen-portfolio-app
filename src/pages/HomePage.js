@@ -83,7 +83,11 @@ class HomePage extends React.Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <Form onSubmit={this.handleSubmit} className="bg-black p-4 text-center">
+        <Form
+          onSubmit={this.handleSubmit}
+          className="bg-black p-4 text-center"
+          id="contact"
+        >
           <Container className="col-md-6">
             <Form.Group>
               <Form.Label htmlFor="full-name">Full Name</Form.Label>
