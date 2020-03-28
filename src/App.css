@@ -43,12 +43,26 @@
 }
 
 .carousel-caption {
+  text-shadow: 2px 2px 3px black;
   top: 20px;
+}
+
+.carousel-caption img {
+  width: 100%;
+}
+
+.carousel-image {
+  height: 500px;
+  width: 100%;
 }
 
 .carousel-item {
   background-color: black;
   min-height: 400px;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -57,4 +71,11 @@
 
 #root {
   background-color: black;
+}
+
+@media screen and (max-width: 376px) {
+  .carousel-image {
+    height: 400px;
+    width: 100%;
+  }
 }

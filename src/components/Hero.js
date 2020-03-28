@@ -13,7 +13,7 @@ function Hero(props) {
               </h4>
             )}
             {props.subTitle && (
-              <h3 className="display-4 mt-3 text-center font-weight-light">
+              <h3 className="display-4 mt-5 text-center font-weight-light">
                 {props.subTitle}
               </h3>
             )}

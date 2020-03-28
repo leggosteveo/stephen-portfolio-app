@@ -68,21 +68,25 @@ class HomePage extends React.Component {
 
         <Carousel>
           <Carousel.Item>
+            <img src="img/Entertainment.jpeg" className="carousel-image"/>
             <Carousel.Caption>
-              <h3>Entertainment</h3>
+              <h3 className="text-center">Entertainment</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
+            <img src="img/Stocks.jpg" className="carousel-image"/>
             <Carousel.Caption>
-              <h3>Stocks</h3>
+              <h3 className="text-center">Stocks</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
+            <img src="img/Real Estate.jpg" className="carousel-image"/>
             <Carousel.Caption>
-              <h3>Real Estate</h3>
+              <h3 className="text-center">Real Estate</h3>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <h1 className="text-center text-white mt-5">Contact Us</h1>
         <Form
           onSubmit={this.handleSubmit}
           className="bg-black p-4 text-center"

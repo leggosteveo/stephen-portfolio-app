@@ -22,7 +22,7 @@ class App extends React.Component {
         title: "Create Opporunities",
         subTitle: "About",
         text:
-          "Outlier investments assists in the execution of high return opportunities, providing capital to well tested events and yielding desirable returns to our members."
+          "Outlier Investments assists in the execution of high return opportunities, providing capital to well tested events and yielding desirable returns to our members."
       },
       about: {
         title: "About Me"
