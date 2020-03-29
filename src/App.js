@@ -36,8 +36,14 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom bg-primary navbar-dark" expand="lg">
-            <Navbar.Brand className="font-weight-bolder text-white">
+          <Navbar
+            className="bg-primary border-bottom outlier-nav navbar-dark"
+            expand="lg"
+          >
+            <Navbar.Brand
+              id="nav-span"
+              className="font-weight-bolder text-white"
+            >
               Outlier Investment Group
             </Navbar.Brand>
           </Navbar>

@@ -69,6 +69,15 @@
   color: white;
 }
 
+#nav-span {
+  margin: 0 auto;
+}
+
+.outlier-nav {
+  background-image: url(img/tampasky.png);
+  background-repeat: no-repeat;
+}
+
 #root {
   background-color: black;
 }
